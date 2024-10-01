@@ -1,0 +1,632 @@
+/* Fonts link */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vidaloka&display=swap');
+
+
+
+* {
+    margin: 0%;
+    padding: 0%;
+    scroll-behavior: smooth;
+}
+
+.header {
+    display: flex;
+    gap: 250px;
+    padding: 20px;
+    background-color: black;
+    border-bottom: 1px solid white;
+    justify-content: center;
+    
+}
+.product_list {
+    display: flex;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 10px;
+    gap: 40px;
+    position: relative;
+    left: 90px;
+    color: white;
+}
+
+.logo_name {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 30px;
+    position: relative;
+    left: 50px;    
+    color: white;
+}
+.product_home {
+    color: white;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+}
+.background_img{
+    position: absolute;
+    width: 100%;
+    height: 500px;
+}
+.login_btn{
+    width: 90px;
+    height: 40px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    cursor: pointer;
+}
+.main_page{
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+.main_page_paragraph{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 25px;
+    color: black;
+}
+.blog{
+    font-size: 29px;
+    color: #E1E507;
+}
+.main_page_subheading{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 15px;
+    width: 400px;
+    color: black;
+    opacity: 80%;
+}
+.read_more_btn{
+    width: 140px;
+    height: 40px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+.btn_read_more{
+    display: flex;
+    gap: 10px;
+    position: relative;
+    top: 30px;
+}
+.more{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 15px;
+    position: relative;
+    top: 5px;
+    
+}
+.Content_section{
+    position: relative;
+    top: 100px;
+    left: 50px;
+}
+.front_image_image{
+    width: 500px;
+    height: 500px;
+    z-index: 1;
+}
+.Connect_with_Me{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+}
+.input_container{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    position: relative;
+    top: 70px;
+    
+    
+}
+.name_container{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 15px;
+    width: 300px;
+    height: 40px;
+    cursor: text;
+    border-radius: 2px;
+    outline: none;
+    border: none;
+}
+
+.submit_email{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    width: 150px;
+    height: 50px;
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.input_container_input{
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.Connect_with_Me{
+    position: relative;
+    top: 20px;
+    display: flex;
+    justify-content: center;
+}
+/* Category section */
+.category_heading{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 100px;
+    color: black;
+}
+.tech_img{
+    width: 600px;
+    height: 400px;
+    z-index: 0;
+    border-radius: 10px;
+}
+.technology{
+    z-index: 1;
+    position: relative;
+    bottom: 140px;
+    color: white;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 90px;
+    left: 20px;
+
+}
+
+.automobile_img{
+    width: 400px;
+    height: 200px;
+    border-radius: 10px;
+}
+.category_sec{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    position: relative;
+    top: 200px;
+}
+.automobile{
+    color: white;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 50px;
+    position: relative;
+    bottom: 80px;
+    left: 50px;
+}
+.business_img{
+    width: 400px;
+    height: 200px;
+    border-radius: 10px;
+    
+}
+.startup{
+    color: white;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 50px;
+    position: relative;
+    bottom: 80px;
+    left: 100px;
+}
+
+.startup_sec{
+    position: relative;
+    bottom: 55px;
+}
+
+/* blog section */
+.blog_heading{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 100px;
+    color: black;
+}
+.blog_image{
+    width: 450px;
+    height: 250px;
+    border-radius: 10px;
+}
+.blog_section{
+    position: relative;
+    top: 200px;
+}
+.blog_main_head_blog_sec{
+    font-family: "Vidaloka", serif;
+  font-weight: 400;
+  font-style: normal;
+    font-size: 35px;
+    width: 650px;
+}
+.blog_main_para_blog_sec{
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    width: 690px;
+}
+.blog_content_{
+    justify-content: center;
+    display: flex;
+    gap: 50px;
+    cursor: pointer;
+}
+.published_date{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 15px;
+    position: relative;
+    top: 30px;
+    opacity: 70%;
+}
+/* Footer Section */
+.footer{
+    position: relative;
+    top: 300px;
+    width: 100%;
+    height: 400px;
+    background-color: black;
+}
+.contact_footer{
+    color: white;
+    font-size: 25px;
+}
+.section_header{
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+}
+#content_footer_section{
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    list-style: none;
+}
+.social_media_icon{
+    color: white;
+    font-size: 34px;
+}
+.footer_contaier{
+    display: flex;
+    justify-content: center;
+    gap: 500px;
+    position: relative;
+    top: 50px;
+}
+.section_footer{
+    position: relative;
+    left: -400px;
+}
+.copywrite_icon{
+    font-size: 25px;
+}
+.copywrite_para{
+    color: white;
+    position: relative;
+    top: 40px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 10px;
+
+}
+.copywrite{
+    position: relative;
+    top: 170px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+#copywrite_icon{
+    color: white;
+    font-size: 15px;
+    position: relative;
+    top: 40px;
+}
+.mobile_front_image{
+    display: none;
+}
+
+.sidenav{
+    display: none;
+}
+.openbtn{
+    display: none;
+}
+
+
+/* responsive design in mobile phone 430px */
+@media only screen and (max-width : 430px){
+    /* header */
+    .logo_name{
+        font-size: 25px;
+        position: relative;
+        left: 20px;
+        
+    }
+    .product_list{
+        display: none;
+    }
+    .login_btn{
+        width: 80px;
+        height: 40px;
+        font-size: 20px;
+
+    }
+    .header{
+        gap: 120px;
+    }
+    .front_image_image{
+        display: none;
+    }
+    .mobile_front_image{
+        display: flex;
+        justify-content: center;
+        position: relative;
+        top: 150px;
+        width: 300px;
+        height: 300px;
+        left: 50px;
+
+    }
+    .main_page{
+        display: block;
+        position: relative;
+        bottom: 30px;
+        right: 30px;
+    }
+    .main_page_paragraph{
+        font-size: 17px;
+        width: 380px;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        right: 20px;
+    }
+    .blog{
+        font-size: 20px;
+        position: relative;
+        bottom: 2px;
+        
+    }
+    .main_page_subheading{
+        font-size: 12px;
+        width: 280px;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        left: -3px;
+    }
+    .read_more_btn{
+        width: 120px;
+        height: 40px;
+        font-size: 13px;
+    }
+    .Connect_with_Me{
+        font-size: 15px;
+        position: relative;
+        top: 130px;
+    }
+    .input_container{
+        position: relative;
+        top: 150px;
+        height: 150px;
+    }
+    .input_container_input{
+        display: block;
+        
+    }
+    .name_container{
+        width: 150px;
+        height: 40px;
+        font-size: 13px;
+
+    }
+    #name{
+        position: relative;
+        right: 5px;
+    }
+    #email{
+        position: relative;
+        left: 5px;
+    }
+    .submit_email{
+        width: 150px;
+        height: 40px;
+        font-size: 18px;
+        position: relative;
+        left: 80px;
+        top: 10px;
+    }
+    .btn_read_more{
+        display: block;
+        position: relative;
+        left: -30px;
+    }
+    .read_btnn{
+        display: flex;
+        justify-content: center;
+    }
+    .more{
+        display: flex;
+        justify-content: center;
+        position: relative;
+        right: 120px;
+        display: none;
+    }
+    .category_heading{
+        display: none;
+    }
+    .category_sec{
+        display: none;
+    }
+    .blog_image{
+        width: 150px;
+        height: 100px;
+    }
+    .blog_main_para_blog_sec{
+       display: none;
+    }
+    .blog_main_head_blog_sec{
+        font-size: 15px;
+        width: 150px;
+
+    }
+    .blog_content_{
+        gap: 10px;
+    }
+    .blog_heading{
+        position: relative;
+        top: 180px;
+        font-size: 24px;
+    }
+    .published_date{
+        font-size: 10px;
+    }
+    /* Footer section */
+     #email_footer_logo{
+        font-size: 24px;
+     }    
+     #cellphone{
+        font-size: 24px;
+     }
+     .footer_contact_section{
+        position: relative;
+        
+     }
+     .section_footer{
+        position: relative;
+        left: 30px;
+     } 
+     .section_header{
+        font-size: 18px;
+     } 
+     #content_footer_section{
+        font-size: 15px;
+     }   
+     #media{
+        font-size: 26px;
+        position: relative;
+        left: 200px;
+     }  
+     .footer_contaier{
+        position: relative;
+        right: 100px; 
+        gap: 10px;
+     }
+
+     /* Side navbar style */
+     .sidenav{
+        display: block;
+     }
+     .sidenav {
+      
+        height: 100%;
+        width: 0;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: #111;
+        overflow-x: hidden;
+        transition: 0.3s;
+        padding-top: 60px;
+        z-index: 1;
+     }
+
+
+/* Links inside the side navigation */
+    .sidenav a {
+        padding: 15px 20px;
+        text-decoration: none;
+        font-size: 18px;
+        color: white;
+        display: block;
+        transition: 0.3s;
+    }
+    
+    /* Change color on hover */
+    .sidenav a:hover {
+        background-color: #575757;
+    }
+    
+    /* Close button (X) */
+    .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+    }
+    
+    /* The button to open the side nav */
+    .openbtn {
+        display: block;
+        font-size: 20px;
+        cursor: pointer;
+        color: white;
+        padding: 10px 15px;
+        border: none;
+        font-size: 24px;
+        position: absolute;
+        right: 310px;
+        top: 12px;
+        
+
+    }
+    
+}
+
