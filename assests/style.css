@@ -624,8 +624,10 @@ a{
         position: absolute;
         right: 310px;
         top: 12px;
-        
-
+    }
+    body{
+        overflow: hidden;
+        overflow-y: auto;
     }
     
 }
