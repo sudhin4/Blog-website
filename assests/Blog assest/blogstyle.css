@@ -195,6 +195,78 @@ b{
     display: none;
 }
 
+/* comment section */
+.comment_heading{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 20px;
+}
+.comment_section{
+    width: 400px;
+    height: 280px;
+    border: 2px solid black;
+    position: relative;
+    top: 50px;
+    left: 35%;
+    border-radius: 5px;
+    
+}
+.comment_name_input{
+    width: 200px;
+    height: 30px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    border: 1px solid rgba(0, 0, 0, 0.555);
+    border-radius: 2px;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 20px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.comment_input{
+    width: 300px;
+    
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    outline: none;
+    position: relative;
+    left: 20px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+
+}
+.submit{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 17px;
+    width: 100px;
+    height: 30px;
+    color: white;
+    background-color: black;
+    border-radius: 2px;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+    top: 40px;
+    left: 20px;
+    
+}
+
 /* responsive design for mobile */
 @media only screen and (max-width : 430px){
     /* header */
@@ -352,6 +424,26 @@ b{
     .sub_image_blog{
         width: 250px;
         height: 150px;
+    }
+    /* Comment section for mobile */
+    .comment_heading{
+        font-size: 17px;
+    }
+    .comment_section{
+        width: 250px;
+
+        position: relative;
+        display: block;
+        left: 50px;
+
+    }
+    .comment_name_input{
+        font-size: 15px;
+        width: 150px;
+    }
+    .comment_input{
+        font-size: 15px;
+        width: 150px;
     }
 
     
